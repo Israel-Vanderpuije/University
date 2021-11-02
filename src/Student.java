@@ -31,10 +31,6 @@ public class Student {
         return studentyear;
     }
 
-//    public void setStudentYear(studentYear studentyear) {
-//        this.studentyear = studentyear;
-//    } // End of getters and setters
-
 
     // Constructor for Student class
     public Student(String studentName, int studentID, studentYear studentyear) {
@@ -45,6 +41,5 @@ public class Student {
         allStudentList.add(new Student(studentName, studentID,studentyear));
 
     } //End of constructor for Student class
-
 
 }
